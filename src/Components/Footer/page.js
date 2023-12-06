@@ -170,22 +170,22 @@ const page = () => {
             <ul className=" flex gap-8">
               <li className="text-3xl text-blue-700">
                 <a href="#">
-                  <i class="ri-facebook-circle-fill"></i>
+                  <i className="ri-facebook-circle-fill"></i>
                 </a>
               </li>
               <li className="text-3xl text-sky-400">
                 <a href="#">
-                  <i class="ri-twitter-fill"></i>
+                  <i className="ri-twitter-fill"></i>
                 </a>
               </li>
               <li className="text-3xl text-pink-500">
                 <a href="#">
-                  <i class="ri-instagram-fill"></i>
+                  <i className="ri-instagram-fill"></i>
                 </a>
               </li>
               <li className="text-3xl text-red-700">
                 <a href="#">
-                  <i class="ri-youtube-fill"></i>
+                  <i className="ri-youtube-fill"></i>
                 </a>
               </li>
             </ul>

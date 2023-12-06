@@ -62,8 +62,6 @@ const HomeSwiper = () => {
             direction="left"
             scrollamount="3"
             scrolldelay="1"
-            onmouseover="this.stop()"
-            onmouseout="this.start()"
           >
             <p>
               <strong className="font-['spartan']  font-semibold text-[#b11e6f] ">

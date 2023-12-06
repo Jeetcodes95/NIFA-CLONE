@@ -168,9 +168,9 @@ const page = () => {
             height="410"
             src="https://www.youtube.com/embed/-9cJjaLXKqE"
             title="NIFA ( Best Art Institute )"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
         </div>
       </div>
@@ -181,9 +181,8 @@ const page = () => {
         </h3>
         <div className="h-auto flex max-md:px-9  flex-wrap px-40 py-10 gap-8">
           {ourCourses.map((data, index) => (
-            <div className="">
+            <div key={index} className="">
               <div
-                key={index}
                 className="w-64 h-96 max-md:w-72 max-md:max-h-full flex flex-wrap justify-center relative rounded-xl bg-white shadow-[0_15px_25px_-10px_rgba(0,0,0,0.3)] hover:shadow-[0_35px_40px_-5px_rgba(0,0,0,0.3)] hover:scale-105 transition-all"
               >
                 <img
@@ -222,9 +221,9 @@ const page = () => {
               style={{ border: "5px solid white" }}
               src={data.videoUrl}
               title="YouTube video player"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           ))}
         </div>
