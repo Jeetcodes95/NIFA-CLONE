@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import StudentWork from "../StudentWorks/StudentWork.js";
 
@@ -127,7 +128,7 @@ const page = () => {
               <div className="font-['spartan'] text-3xl font-black">
                 Online Classes
               </div>
-              <div className="font-['spartan']  py-2">
+              <div className="font-['spartan'] py-2">
                 Dear Students/Parents, Nifa presents its Learning App for your
                 regular art practice in which we have added many amazing
                 features Like: Step-by-step recorded demo videos prepared by
@@ -137,6 +138,7 @@ const page = () => {
                 information and direct connect with the management team are some
                 more features. So hurry up n join now to experience personalised
                 coaching by experts sitting at your home.
+
                 <div className="font-['spartan'] py-3">
                   We wish u Happy Learning. Stay Safe n Healthy.
                 </div>
