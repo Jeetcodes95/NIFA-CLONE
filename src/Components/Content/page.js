@@ -1,5 +1,5 @@
 import React from "react";
-import StudentWork from "@/components/StudentWorks/StudentWork";
+import StudentWork from "../StudentWorks/StudentWork.js";
 
 const page = () => {
 
