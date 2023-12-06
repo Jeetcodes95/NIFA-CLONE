@@ -1,10 +1,10 @@
 "use client"
 
-import HeaderTop from "@/Components/HeaderTop/HeaderTop";
-import Navbar from "@/Components/Navbar/Navbar"
-import Content from '@/Components/Content/page'
-import HomeSwiper from "@/Components/HomeSwiper/page";
-import Footer  from "@/Components/Footer/page"
+import HeaderTop from "@/components/HeaderTop/HeaderTop";
+import Navbar from "@/components/Navbar/Navbar"
+import Content from '@/components/Content/page'
+import HomeSwiper from "@/components/HomeSwiper/page";
+import Footer  from "@/components/Footer/page"
 
 export default function Home() {
   

@@ -1,6 +1,5 @@
 import React from "react";
-import StudentWork from "../StudentWorks/StudentWork";
-import Footer from '../Footer/page'
+import StudentWork from "@/components/StudentWorks/StudentWork";
 
 const page = () => {
 
